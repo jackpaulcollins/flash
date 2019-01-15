@@ -6,26 +6,39 @@ p {
   text-align: center;
 }
 
-.card-title {
-  text-align: left;
+.col-md-8 {
+  align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
   padding: 10px;
+  padding-top: 15px;
   font-weight: bold;
 }
 
 .card {
-  height: 20vw;
+  height: 30vw;
+  border-radius: 5%;
+  border-width: medium;
+  border-color: black;
+
 }
 
 .card-body {
   display: block;
   height: auto;
+  padding-top: 75px;
+
 }
 
-#card-font-size {
+.card-font-size {
   margin: none;
- 
   width: 100%;
-  font-size: 1vw;
+  font-size: 1.05vw;
+  font-weight: 100;
 
 }
 
@@ -35,4 +48,36 @@ p {
 
 ul {
   font-size: 1vw;
+}
+
+
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+
+
+#left-arrow {
+  padding: auto;
+  border: none;
+  font-size: 5vw;
+
+}
+
+
+#right-arrow {
+  padding: auto;
+  border: none;
+  font-size: 5vw;
+}
+
+
+#textShowing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+
 }
