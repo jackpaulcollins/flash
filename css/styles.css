@@ -13,7 +13,7 @@ p {
 }
 
 .card {
-  height: 320px;
+  height: 20vw;
 }
 
 .card-body {
@@ -23,8 +23,10 @@ p {
 
 #card-font-size {
   margin: none;
+ 
   width: 100%;
-  font-size: 1em;
+  font-size: 1vw;
+
 }
 
 .row {
@@ -32,5 +34,5 @@ p {
 }
 
 ul {
-  font-size: 1em;
+  font-size: 1vw;
 }
